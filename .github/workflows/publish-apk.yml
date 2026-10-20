@@ -1,0 +1,31 @@
+name: Publish KTDownload APK
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'KTDownload.apk'
+      - '.github/workflows/publish-apk.yml'
+  workflow_dispatch:
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify signed APK archive
+        run: |
+          test -f KTDownload.apk
+          test "$(stat -c %s KTDownload.apk)" -gt 1000000
+          unzip -t KTDownload.apk >/dev/null
+          sha256sum KTDownload.apk
+      - name: Update stable in-app release asset
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: apk-latest
+          name: KTDownload latest
+          body: 'Signed Android APK; version metadata is published only after this asset succeeds.'
+          files: KTDownload.apk
+          overwrite_files: true
+          make_latest: true
+          fail_on_unmatched_files: true
