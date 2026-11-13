@@ -1,40 +1,40 @@
 {
     "channel":  "stable",
     "package":  "app.ktdownload",
-    "version":  "2.6.2",
-    "versionName":  "2.6.2",
-    "versionCode":  20602001,
+    "version":  "2.6.3",
+    "versionName":  "2.6.3",
+    "versionCode":  20603001,
     "apkUrl":  "https://github.com/ktb6251/ktdownload-apk/releases/download/apk-latest/KTDownload.apk",
-    "apkSha256":  "c3844481b06c28bfd2ecf850b8d95a03e20dce9f1014fed623395aeceb9a0327",
+    "apkSha256":  "bef1ede158748dc7367e536a3a933929f7fe6bd73a8818302c98cc0eebabb881",
     "signingSha256":  "a44e4d44a333cff05d7bc49d2e4f434bf3fd6639ed0b96a3d9c4535560c3ea61",
     "abiAssets":  {
                       "universal":  {
                                         "asset":  "KTDownload-universal.apk",
-                                        "localFile":  "KTDownload-v2.6.2-universal.apk",
+                                        "localFile":  "KTDownload-v2.6.3-universal.apk",
                                         "url":  "https://github.com/ktb6251/ktdownload-apk/releases/download/apk-latest/KTDownload-universal.apk",
-                                        "sha256":  "f999fcf1a1b9cd0861d65756d3729d5a2eb5e0a9e310f2ef639484230eed0288",
-                                        "bytes":  209097020
+                                        "sha256":  "ebbd3285dc9a576949878688eaadb865fb8030efb24e94a1c4d3f44cf7630bbe",
+                                        "bytes":  209102376
                                     },
                       "x86_64":  {
                                      "asset":  "KTDownload-x86_64.apk",
-                                     "localFile":  "KTDownload-v2.6.2-x86_64.apk",
+                                     "localFile":  "KTDownload-v2.6.3-x86_64.apk",
                                      "url":  "https://github.com/ktb6251/ktdownload-apk/releases/download/apk-latest/KTDownload-x86_64.apk",
-                                     "sha256":  "ecaf19e8f57854e78e4168b766c095e1526e0c43f2195aaf2d4ed612380792f7",
-                                     "bytes":  66717998
+                                     "sha256":  "62321bc636c02a1bd015b54c32b78b616d602f94f213b10759dde5cb1fd61f2e",
+                                     "bytes":  66723358
                                  },
                       "arm64-v8a":  {
                                         "asset":  "KTDownload-arm64-v8a.apk",
-                                        "localFile":  "KTDownload-v2.6.2-arm64-v8a.apk",
+                                        "localFile":  "KTDownload-v2.6.3-arm64-v8a.apk",
                                         "url":  "https://github.com/ktb6251/ktdownload-apk/releases/download/apk-latest/KTDownload-arm64-v8a.apk",
-                                        "sha256":  "c3844481b06c28bfd2ecf850b8d95a03e20dce9f1014fed623395aeceb9a0327",
-                                        "bytes":  63726220
+                                        "sha256":  "bef1ede158748dc7367e536a3a933929f7fe6bd73a8818302c98cc0eebabb881",
+                                        "bytes":  63731580
                                     },
                       "armeabi-v7a":  {
                                           "asset":  "KTDownload-armeabi-v7a.apk",
-                                          "localFile":  "KTDownload-v2.6.2-armeabi-v7a.apk",
+                                          "localFile":  "KTDownload-v2.6.3-armeabi-v7a.apk",
                                           "url":  "https://github.com/ktb6251/ktdownload-apk/releases/download/apk-latest/KTDownload-armeabi-v7a.apk",
-                                          "sha256":  "fd2990ef6caf9a94916d48d1d71fe6444fdaad991875d9cf7cf141637e25d522",
-                                          "bytes":  57073408
+                                          "sha256":  "0b2faa362b65039683ff004ee9ab6f8aeecbcbc171b1121fd3c97b300c0577e9",
+                                          "bytes":  57078764
                                       }
                   }
 }
